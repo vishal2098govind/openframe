@@ -1,0 +1,8 @@
+*/audio_clips/
+**/*/__pycache__/*
+venv/
+*.wav
+*.mp3
+*.mp4
+*.env
+/src/serviceAccountKey.json
