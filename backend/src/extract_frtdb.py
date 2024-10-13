@@ -61,7 +61,7 @@ def get_rtdb_frames(client: Groq) -> Tuple[list[str], str]:
                 # If the value matches the base64 pattern, decode and save the image
                 print(f"Found base64 image data for key: {key}")
                 frames.append(value)
-                # save_base64_image(value, f"video_frames/{key}.jpg")
+                save_base64_image(value, f"video_frames/{key}.jpg")
             else:
                 print(f"Skipping non-base64 entry: {key}")
         else:
