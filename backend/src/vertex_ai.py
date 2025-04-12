@@ -5,7 +5,7 @@ from vertexai.generative_models import GenerativeModel, Part
 PROJECT_ID = "askchuck"
 vertexai.init(project=PROJECT_ID, location="us-central1")
 
-model = GenerativeModel("gemini-1.5-flash-002")
+model = GenerativeModel("gemini-2.0-flash-001")
 
 prompt = """
 You are a smart AI that need to go through the video and answer any question being asked in the video based on what you saw in the video.
